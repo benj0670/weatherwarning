@@ -10,7 +10,7 @@ var jetty = new Jetty(process.stdout);
 jetty.clear();
 
 var now = new Date();
-var minute = 0;
+var minute = 5;
 var site = "https://www.gov.nl.ca/";
 
 checkTime();

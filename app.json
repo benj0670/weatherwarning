@@ -1,0 +1,9 @@
+{
+  "name": "Weather Warning Checker",
+  "description": "This app does one little thing, and does it well.",
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest"
+    }
+  ]
+}
