@@ -10,14 +10,14 @@ var jetty = new Jetty(process.stdout);
 jetty.clear();
 
 var now = new Date();
-var minute = 50;
+var minute = 0;
 var site = "https://www.gov.nl.ca/";
 
 checkTime();
 
 function checkTime() {
   var now = new Date();
-  var millisTill5 = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 13, minute, 0, 0) - now;
+  var millisTill5 = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 14, minute, 0, 0) - now;
   if (millisTill5 < 0) {
        millisTill5 += 86400000;
   }
